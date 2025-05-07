@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Japan",
+    "fact": "Home to the world’s oldest company, founded in 578 AD."
+  },
+  {
+    "name": "Brazil",
+    "fact": "Holds the largest part of the Amazon rainforest."
+  },
+  {
+    "name": "Canada",
+    "fact": "Has more lakes than the rest of the world combined."
+  },
+  {
+    "name": "Egypt",
+    "fact": "Contains the only remaining wonder of the ancient world: the Great Pyramid of Giza."
+  },
+  {
+    "name": "Iceland",
+    "fact": "Runs almost entirely on renewable energy."
+  },
+  {
+    "name": "Australia",
+    "fact": "Has more kangaroos than people."
+  },
+  {
+    "name": "Switzerland",
+    "fact": "Is famous for not having been in a war since 1815."
+  },
+  {
+    "name": "India",
+    "fact": "Has the world's largest postal network."
+  },
+  {
+    "name": "Norway",
+    "fact": "Generates nearly all electricity from hydropower."
+  },
+  {
+    "name": "Chile",
+    "fact": "Home to the driest desert on Earth – the Atacama Desert."
+  }
+]
