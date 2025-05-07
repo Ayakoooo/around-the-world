@@ -1,14 +1,14 @@
 import React from "react";
 import { useFeaturesStore } from "./store";
 
-import reactLogo from "@/assets/react.svg";
-import framerLogo from "@/assets/framer.svg";
-import tailwindLogo from "@/assets/tailwind.svg";
-import chatgptLogo from "@/assets/chatgpt.svg";
-import githubLogo from "@/assets/github.svg";
-import openIcon from "@/assets/open.svg";
-import apiLogo from "@/assets/api.svg";
-import fuseLogo from "@/assets/fusejs.png";
+import reactLogo from "../../assets/react.svg";
+import framerLogo from "../../assets/framer.svg";
+import tailwindLogo from "../../assets/tailwind.svg";
+import chatgptLogo from "../../assets/chatgpt.svg";
+import githubLogo from "../../assets/github.svg";
+import openLogo from "../../assets/open.svg";
+import apiLogo from "../../assets/api.svg";
+import fuseLogo from "../../assets/fusejs.png";
 
 interface FeatureCardProps {
   gradient: string;
@@ -94,7 +94,7 @@ export const FGitHub = ({ id }: CardProps) => (
         className="pulsing pointer-events-auto inline-flex items-center gap-2 rounded-sm bg-black px-4 py-2 text-lg font-semibold text-white transition-all duration-300 hover:text-slate-100"
       >
         <span>GitHub</span>
-        <img src={openIcon} alt="" />
+        <img src={openLogo} alt="" />
       </a>
     </div>
   </FeatureCard>
