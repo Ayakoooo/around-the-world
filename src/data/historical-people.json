@@ -1,20 +1,20 @@
 [
   {
-    "imgSrc": "../assets/simon.jpg",
+    "imgSrc": "../../src/assets/simon.jpg",
     "imgAlt": "Image showcasing Simón Bolívar",
     "name": "Simón Bolívar",
     "brief": "Simón Bolívar was a Venezuelan military and political leader who led several South American countries to independence from Spanish rule and is considered a national hero in many Latin American nations.",
     "order": false
   },
   {
-    "imgSrc": "../assets/mahatma.webp",
+    "imgSrc": "../../src/assets/mahatma.webp",
     "imgAlt": "Image showcasing Mahatma Gandhi",
     "name": "Mahatma Gandhi",
     "brief": "Mahatma Gandhi was a leader of the Indian independence movement, using nonviolent civil disobedience to lead India to independence from British rule.",
     "order": true
   },
   {
-    "imgSrc": "../assets/washington.avif",
+    "imgSrc": "../../src/assets/washington.avif",
     "imgAlt": "Image showcasing George Washington",
     "name": "George Washington",
     "brief": "The first President of the United States and a Founding Father, George Washington led the American Revolutionary War and played a central role in the formation of the United States.",
