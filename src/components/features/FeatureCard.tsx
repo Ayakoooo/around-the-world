@@ -1,14 +1,14 @@
 import React from "react";
 import { useFeaturesStore } from "./store";
 
-import reactLogo from "../assets/react.svg";
-import framerLogo from "../assets/framer.svg";
-import tailwindLogo from "../assets/tailwind.svg";
-import chatgptLogo from "../assets/chatgpt.svg";
-import githubLogo from "../assets/github.svg";
-import openIcon from "../assets/open.svg";
-import apiLogo from "../assets/api.svg";
-import fuseLogo from "../assets/fusejs.png";
+import reactLogo from "@/assets/react.svg";
+import framerLogo from "@/assets/framer.svg";
+import tailwindLogo from "@/assets/tailwind.svg";
+import chatgptLogo from "@/assets/chatgpt.svg";
+import githubLogo from "@/assets/github.svg";
+import openIcon from "@/assets/open.svg";
+import apiLogo from "@/assets/api.svg";
+import fuseLogo from "@/assets/fusejs.png";
 
 interface FeatureCardProps {
   gradient: string;
