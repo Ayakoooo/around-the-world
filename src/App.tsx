@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route index element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="regions/:region" element={<Region />}></Route>
         <Route
           path="regions/:region/countries/:country"
