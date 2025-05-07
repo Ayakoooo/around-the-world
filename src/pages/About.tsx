@@ -9,6 +9,7 @@ import {
 } from "../components/features/FeatureCard";
 import { FeatureTitle } from "../components/features/FeatureTitle";
 import { Container } from "../shared/Container";
+import githubIcon from "../assets/github.svg";
 
 document.title = "ATW | About";
 
@@ -79,11 +80,7 @@ export const About = () => {
               target="_blank"
               className="inline-flex items-center gap-1 align-top text-slate-800 underline"
             >
-              <img
-                src="./assets/github.svg"
-                alt=""
-                className="aspect-square w-6"
-              />
+              <img src={githubIcon} alt="" className="aspect-square w-6" />
               <span>my GitHub account</span>
             </a>
             , where the entire project is maintained and regularly updated.
