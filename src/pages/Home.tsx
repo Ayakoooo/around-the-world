@@ -5,8 +5,8 @@ import { Hero } from "../components/Hero";
 import { Container } from "../shared/Container";
 import { Card } from "../components/CountryCard";
 import { Facts } from "../components/facts/Facts";
-import { People, peopleProps } from "../components/facts/People";
-import historicalPeople from "../data/historical-people.json";
+// import { People, peopleProps } from "../components/facts/People";
+// import historicalPeople from "../data/historical-people.json";
 import Slider, { LazyLoadTypes } from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -162,7 +162,7 @@ export const Home = () => {
           )}
         </article>
       </Container>
-      <section className="s bg-[#1d1d1f] py-30 text-gray-400 lg:py-40">
+      {/* <section className="s bg-[#1d1d1f] py-30 text-gray-400 lg:py-40">
         <Container>
           <h1 className="mb-20 bg-gradient-to-br from-[#FFD700] via-[#FF8C00] to-[#FF4500] bg-clip-text text-center text-transparent uppercase md:mb-40">
             Historical Icons
@@ -181,7 +181,7 @@ export const Home = () => {
             ))}
           </div>
         </Container>
-      </section>
+      </section> */}
     </main>
   );
 };
