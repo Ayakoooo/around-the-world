@@ -80,7 +80,7 @@ export const About = () => {
               className="inline-flex items-center gap-1 align-top text-slate-800 underline"
             >
               <img
-                src="../src/assets/github.svg"
+                src="./assets/github.svg"
                 alt=""
                 className="aspect-square w-6"
               />
